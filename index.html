@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: translateY(-5px);
+        }
+        .icon i {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .icon span {
+            text-align: center;
+            word-break: break-word;
+        }
+        .fa-utensils { color: #A0522D; }
+        .fa-snowflake { color: #87CEEB; }
+        .fa-apple-alt { color: #DC143C; }
+        .fa-gift { color: #E53935; }
+        .fa-tags { color: #2E7D32; }
+        .fa-percent { color: #F57C00; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="PORCENTAJES CHARCUTERIA.docx" class="icon">
+            <i class="fas fa-utensils"></i>
+            <span>PORCENTAJES CHARCUTERIA</span>
+        </a>
+        <a href="PORCENTAJES CONGELADOS.docx" class="icon">
+            <i class="fas fa-snowflake"></i>
+            <span>PORCENTAJES CONGELADOS</span>
+        </a>
+        <a href="PORCENTAJES FRUTA.docx" class="icon">
+            <i class="fas fa-apple-alt"></i>
+            <span>PORCENTAJES FRUTA</span>
+        </a>
+        <a href="PORCENTAJES NAVIDAD.docx" class="icon">
+            <i class="fas fa-gift"></i>
+            <span>PORCENTAJES NAVIDAD</span>
+        </a>
+        <a href="PORCENTAJES PRECIOS.docx" class="icon">
+            <i class="fas fa-tags"></i>
+            <span>PORCENTAJES PRECIOS</span>
+        </a>
+        <a href="PORCENTAJES.docx" class="icon">
+            <i class="fas fa-percent"></i>
+            <span>PORCENTAJES</span>
+        </a>
+    </div>
+</body>
+</html>
